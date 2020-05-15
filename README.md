@@ -1,7 +1,6 @@
 Запуск:
 
-1. Скачать проэкт. В скачаной папке открить терминал. 
-   Ввести команду: docker-compose build && docker-compose up -d
+1. Скачать. В скачаной папке открить терминал.Ввести команду: docker-compose build && docker-compose up -d
 2. Перейти в папку с проэктом: cd src
 3. Вводим: composer dump-autoload
 4. Вводим: docker-compose exec php php /var/www/html/artisan migrate
